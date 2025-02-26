@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB087B562D57C4C600583514 /* WeatherDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB087B552D57C4C600583514 /* WeatherDAO.swift */; };
+		CB087B592D57DCB500583514 /* PlaceEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB087B572D57DCB500583514 /* PlaceEntity+CoreDataClass.swift */; };
+		CB087B5A2D57DCB500583514 /* PlaceEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB087B582D57DCB500583514 /* PlaceEntity+CoreDataProperties.swift */; };
+		CB1641A62D62640C00EAE793 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CB1641A52D62640C00EAE793 /* Kingfisher */; };
+		CB1641A82D62659D00EAE793 /* weatherIconDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1641A72D62659D00EAE793 /* weatherIconDAO.swift */; };
 		CB9C9F8A2D577C100026D370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9F892D577C100026D370 /* AppDelegate.swift */; };
 		CB9C9F8C2D577C100026D370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9F8B2D577C100026D370 /* SceneDelegate.swift */; };
 		CB9C9F8E2D577C100026D370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9F8D2D577C100026D370 /* ViewController.swift */; };
@@ -14,9 +19,17 @@
 		CB9C9F942D577C100026D370 /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9F922D577C100026D370 /* Weather.xcdatamodeld */; };
 		CB9C9F962D577C110026D370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9C9F952D577C110026D370 /* Assets.xcassets */; };
 		CB9C9F992D577C110026D370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9C9F972D577C110026D370 /* LaunchScreen.storyboard */; };
+		CB9C9FA52D577FC50026D370 /* PersistentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9FA42D577FC50026D370 /* PersistentDAO.swift */; };
+		CB9C9FA72D5780590026D370 /* placeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C9FA62D5780590026D370 /* placeStruct.swift */; };
+		CBEE5AFF2D5C88F70071630A /* 5dayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE5AFE2D5C88F70071630A /* 5dayVC.swift */; };
+		CBFE81F22D5B7D2000E80B28 /* currentLocationDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE81F12D5B7D2000E80B28 /* currentLocationDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB087B552D57C4C600583514 /* WeatherDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDAO.swift; sourceTree = "<group>"; };
+		CB087B572D57DCB500583514 /* PlaceEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlaceEntity+CoreDataClass.swift"; path = "Weather/PlaceEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB087B582D57DCB500583514 /* PlaceEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlaceEntity+CoreDataProperties.swift"; path = "Weather/PlaceEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB1641A72D62659D00EAE793 /* weatherIconDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherIconDAO.swift; sourceTree = "<group>"; };
 		CB9C9F862D577C0F0026D370 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9C9F892D577C100026D370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB9C9F8B2D577C100026D370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,10 @@
 		CB9C9F952D577C110026D370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9C9F982D577C110026D370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9C9F9A2D577C110026D370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9C9FA42D577FC50026D370 /* PersistentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentDAO.swift; sourceTree = "<group>"; };
+		CB9C9FA62D5780590026D370 /* placeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeStruct.swift; sourceTree = "<group>"; };
+		CBEE5AFE2D5C88F70071630A /* 5dayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5dayVC.swift; sourceTree = "<group>"; };
+		CBFE81F12D5B7D2000E80B28 /* currentLocationDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentLocationDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1641A62D62640C00EAE793 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,8 @@
 		CB9C9F7D2D577C0F0026D370 = {
 			isa = PBXGroup;
 			children = (
+				CB087B572D57DCB500583514 /* PlaceEntity+CoreDataClass.swift */,
+				CB087B582D57DCB500583514 /* PlaceEntity+CoreDataProperties.swift */,
 				CB9C9F882D577C0F0026D370 /* Weather */,
 				CB9C9F872D577C0F0026D370 /* Products */,
 			);
@@ -66,6 +86,12 @@
 				CB9C9F972D577C110026D370 /* LaunchScreen.storyboard */,
 				CB9C9F9A2D577C110026D370 /* Info.plist */,
 				CB9C9F922D577C100026D370 /* Weather.xcdatamodeld */,
+				CB9C9FA42D577FC50026D370 /* PersistentDAO.swift */,
+				CB9C9FA62D5780590026D370 /* placeStruct.swift */,
+				CB087B552D57C4C600583514 /* WeatherDAO.swift */,
+				CBFE81F12D5B7D2000E80B28 /* currentLocationDAO.swift */,
+				CBEE5AFE2D5C88F70071630A /* 5dayVC.swift */,
+				CB1641A72D62659D00EAE793 /* weatherIconDAO.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -86,6 +112,9 @@
 			dependencies = (
 			);
 			name = Weather;
+			packageProductDependencies = (
+				CB1641A52D62640C00EAE793 /* Kingfisher */,
+			);
 			productName = Weather;
 			productReference = CB9C9F862D577C0F0026D370 /* Weather.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +142,9 @@
 				Base,
 			);
 			mainGroup = CB9C9F7D2D577C0F0026D370;
+			packageReferences = (
+				CB1641A42D62640C00EAE793 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CB9C9F872D577C0F0026D370 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,10 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB087B592D57DCB500583514 /* PlaceEntity+CoreDataClass.swift in Sources */,
 				CB9C9F942D577C100026D370 /* Weather.xcdatamodeld in Sources */,
+				CB087B562D57C4C600583514 /* WeatherDAO.swift in Sources */,
+				CBFE81F22D5B7D2000E80B28 /* currentLocationDAO.swift in Sources */,
+				CB1641A82D62659D00EAE793 /* weatherIconDAO.swift in Sources */,
 				CB9C9F8E2D577C100026D370 /* ViewController.swift in Sources */,
+				CB9C9FA52D577FC50026D370 /* PersistentDAO.swift in Sources */,
 				CB9C9F8A2D577C100026D370 /* AppDelegate.swift in Sources */,
+				CB9C9FA72D5780590026D370 /* placeStruct.swift in Sources */,
 				CB9C9F8C2D577C100026D370 /* SceneDelegate.swift in Sources */,
+				CB087B5A2D57DCB500583514 /* PlaceEntity+CoreDataProperties.swift in Sources */,
+				CBEE5AFF2D5C88F70071630A /* 5dayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB1641A42D62640C00EAE793 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB1641A52D62640C00EAE793 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB1641A42D62640C00EAE793 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CB9C9F922D577C100026D370 /* Weather.xcdatamodeld */ = {
